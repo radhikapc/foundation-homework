@@ -1,7 +1,7 @@
 # foundation-homework
-Homework from the Lede Homework
+Homework from the Lede program at Columbia Graduate School of Journalism.
 ## About
-This repository is created to save and share the assignments for the Lede program
+This repository is created to save and share the assignments of the Lede program.
 
 ## How to Submit?
 

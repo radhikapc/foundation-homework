@@ -141,7 +141,7 @@ import requests
 
 # In[59]:
 
-key = 'key-'
+key = 'key-f5edb244ca7303dc63f079a4cdb97f73'
 sandbox = 'sandbox3b984a674a954bcf8c5f2dca397bc3c1.mailgun.org'
 recipient = 'radhika.dwaraka@gmail.com'
 
@@ -152,7 +152,7 @@ request_url = 'https://api.mailgun.net/v2/{0}/messages'.format(sandbox)
 request = requests.post(request_url, auth=('api', key), data={
     'from': 'hello@example.com',
     'to': recipient,
-    'subject': 'Hello',
+    'subject': "Today's Weather forecast",
     'text': 'Hello from My Server'
 })
 print('Status: {0}'.format(request.status_code))

@@ -141,7 +141,7 @@ import requests
 
 # In[59]:
 
-key = 'key-f5edb244ca7303dc63f079a4cdb97f73'
+key = 'key-'
 sandbox = 'sandbox3b984a674a954bcf8c5f2dca397bc3c1.mailgun.org'
 recipient = 'radhika.dwaraka@gmail.com'
 

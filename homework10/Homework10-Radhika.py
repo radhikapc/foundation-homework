@@ -9,34 +9,34 @@
 # 
 # Right now it is TEMPERATURE degrees out and SUMMARY. Today will be TEMP_FEELING with a high of HIGH_TEMP and a low of LOW_TEMP. RAIN_WARNING.
 
-# In[84]:
+# In[1]:
 
 import requests
 
 
-# In[85]:
+# In[2]:
 
 import dateutil.parser
 import datetime
 
 
-# In[86]:
+# In[3]:
 
 response = requests.get('https://api.forecast.io/forecast/4da699cf85f9706ce50848a7e59591b7/40.712784,-74.005941')
 data = response.json()
 
 
-# In[87]:
+# In[4]:
 
 data
 
 
-# In[88]:
+# In[5]:
 
 #data.keys()
 
 
-# In[89]:
+# In[6]:
 
 #data_list = data['daily']['data']
 
@@ -44,12 +44,12 @@ data
     #print(i)
 
 
-# In[90]:
+# In[7]:
 
 #data['currently']['temperature']
 
 
-# In[91]:
+# In[8]:
 
 def temp(my_dict):
     temperature = my_dict['currently']['temperature']
@@ -59,7 +59,7 @@ def temp(my_dict):
 temp(data)
 
 
-# In[92]:
+# In[9]:
 
 def summ(my_dict):
     summary = my_dict['currently']['summary']
@@ -69,7 +69,7 @@ def summ(my_dict):
 summ(data)
 
 
-# In[93]:
+# In[10]:
 
 def high_temp(my_dict):
     TempMax = data['daily']['data']
@@ -79,7 +79,7 @@ def high_temp(my_dict):
 high_temp(data)
 
 
-# In[94]:
+# In[11]:
 
 def temp_feel(my_dict):
     TemMax = data['daily']['data']
@@ -98,7 +98,7 @@ def temp_feel(my_dict):
 temp_feel(data)
 
 
-# In[95]:
+# In[12]:
 
 def low_temp(my_dict):
     TempMin = data['daily']['data']
@@ -108,7 +108,7 @@ def low_temp(my_dict):
 low_temp(data)
 
 
-# In[96]:
+# In[13]:
 
 def rain_warning(my_dict):
     data_list = data['daily']['data']
@@ -127,50 +127,55 @@ def rain_warning(my_dict):
 rain_warning(data)
 
 
-# In[97]:
+# In[14]:
 
 def eq_to_sentence(my_dict):
     return "Right now it is " + temp(my_dict) + " degrees out and " + summ(my_dict) + ". Today will be " + temp_feel(my_dict) + " with a high temperature of " + high_temp(my_dict) + " and a low temperature of " + low_temp(my_dict) + "." + rain_warning(my_dict)
-eq_to_sentence(data)
+statement = eq_to_sentence(data)
 
 
-# In[98]:
+# In[15]:
+
+type(statement)
+
+
+# In[22]:
 
 import time
 
 
-# In[99]:
+# In[23]:
 
-#now = time.strftime("%B %d, %Y")
-#now
+now = time.strftime("%B %d, %Y")
+now
 
 
-# In[100]:
+# In[18]:
 
 import requests
 
 
-# In[101]:
+# In[19]:
 
 key = 'key-f5edb244ca7303dc63f079a4cdb97f73'
 sandbox = 'sandbox3b984a674a954bcf8c5f2dca397bc3c1.mailgun.org'
 recipient = 'radhika.dwaraka@gmail.com'
 
 
-# In[102]:
+# In[24]:
 
 request_url = 'https://api.mailgun.net/v2/{0}/messages'.format(sandbox)
 request = requests.post(request_url, auth=('api', key), data={
-    'from': 'hello@example.com',
+    'from': 'radhika.dwaraka@gmail.com',
     'to': recipient,
     'subject': "8AM Weather forecast:" + now,
-    'text': 'Hello from My Server'
+    'text': statement,
 })
 print('Status: {0}'.format(request.status_code))
 print('Body:   {0}'.format(request.text))
 
 
-# In[103]:
+# In[ ]:
 
 request_url = 'https://api.mailgun.net/v2/{0}/events'.format(sandbox)
 request = requests.get(request_url, auth=('api', key), params={'limit': 5})

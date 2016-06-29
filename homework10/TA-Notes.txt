@@ -1,0 +1,5 @@
+Grade: 9 / 10
+
+Double check your functions! In all of your functions, you don't actually used the parameter you pass your function! It happens to work out because the variable name that you use inside your function happens to be the one that you ultimately pass to it when you call your function further down in your code. 
+
+Also, in your Reddit scrapper you sent something into a function as a string, but you should have just used a variable. 

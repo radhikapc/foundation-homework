@@ -1,0 +1,4 @@
+Grade: 9 / 10
+
+Great job -- only your last SQL statement did not work. Were you able to identify the error? We can chat more about this during lab. Also, I put in a note into your HW5 notebook about variable naming (search for "TA-COMMENT"). Let me know if you have any questions!
+

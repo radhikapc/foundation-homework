@@ -19,4 +19,7 @@ This homework assignment gave me so much satisfaction, because students were all
 
 ## Indian Startup  Ecosystem Insights ##
 
+This was a total waste of my time, unfortunately !
+
 Only one insight, which we all know: Bangalore has the highest number of startups :-)
+Can't call it an insight ! This dataset wasn't clean and was lacking important information so nothing worth sharing. 

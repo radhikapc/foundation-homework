@@ -2,7 +2,7 @@
 
 This homework assignment gave me so much satisfaction, because students were allowed to pick up their own favourite dataset for analysis. Being a space enthusiast since childhood I went straight in search of avaiable NASA datasets online. Google did not disappoint me: It quickly gave away the NASA Laboratory facilities dataset from Data.gov: http://catalog.data.gov/dataset/agency-data-on-user-facilities. Because India Inc is soaked in Startup mania, I decided to pick up a dataset on startups from angellist. Disclaimer: the dataset wasn't clean enough, lacked many important points; so I had to manipulate that to an extent. It's not a trustworthy dataset, therefore don't take the insights for granted.
 
-## NASA Laboratory Facilities Insights ##
+## An Insight Into NASA Laboratory Facilities ##
 
 * NASA runs a total of 397 lab facilities, Nasa Intelsat runs 17, Department of Defence(DOD) runs 7 labs, Department of Energy runs 12 labs, Raytheon runs 5, and Orbital Sciences Corporation (osc) runs only one NASA lab facility.
 * The highest number of labs are located in the state : Alabama
@@ -17,7 +17,7 @@ This homework assignment gave me so much satisfaction, because students were all
 * There are 388 active NASA lab facilities in the US.
 * There are 22 inactive lab facilities in the US.
 
-## Indian Startup  Ecosystem Insights ##
+## An Insigt Into Indian Startup  Ecosystem##
 
 This was a total waste of my time, unfortunately !
 

@@ -5,3 +5,7 @@ For the same purpose, I downloaded a CSV file from Github that contains the basi
 The IPYNB file contains the complete code for this project.
 
 The link to the bot is https://twitter.com/LedeGalaxy
+
+### Twitter Timeline Analysis ###
+
+This is my attempt to analyze a Twitter timeline by using Twitter API and twython. For this purpose, I picked up a Startup, co-founded my friend, that built a hiring platform for developers. I hope this analysis would help the company to get an insight into the dispersion of their twitter followers around the globe.

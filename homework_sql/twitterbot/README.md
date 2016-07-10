@@ -12,4 +12,4 @@ The link to the bot is https://twitter.com/LedeGalaxy
 
 ### Twitter Timeline Analysis ###
 
-This is my attempt to analyze a Twitter timeline by using Twitter API and twython. For this purpose, I picked up a Startup, co-founded my friend, that built a hiring platform for developers. I hope this analysis would help the company to get an insight into the dispersion of their twitter followers around the globe.
+This is my attempt to analyze a Twitter timeline by using Twitter API and twython. For this purpose, I picked up two Startups, co-founded my friends : ActOnMagic and DoSelect. ActOnMagic is an intellegent cloud analytic platform whereas DoSelect has built a solid hiring platform for developers. I hope this analysis would help both the companies get an insight into the dispersion of their twitter followers around the globe.

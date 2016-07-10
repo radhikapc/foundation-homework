@@ -3,10 +3,10 @@
 
 # In[1]:
 
-api_key = "i2uqZrHzGRowNfKFEG4EfYICZ"
-api_secret = "cXCdGEf4w7ekHyh7p2HzqJfajgru8z5oSgCF3uy8xPC1R5pszS"
-access_token = "733731514526142466-WoOlYxYLmcvHNv7u1Oj6UkMTExWiy67"
-token_secret = "y9HwMcJEGQWfXSRzo2y9g06s2BHKkOTocio3w8apnDjsy"
+api_key = ""
+api_secret = ""
+access_token = ""
+token_secret = ""
 
 
 # In[2]:
@@ -40,7 +40,7 @@ status = twitter.get_application_rate_limit_status(resources = ['statuses'])
 
 #check how many API call is remaining the current window
 status = twitter.get_application_rate_limit_status(resources = ['statuses'])
-home_status = status['resources']['statuses']['/statuses/home_timeline']        
+home_status = status['resources']['statuses']['/statuses/home_timeline']
 home_status
 
 
@@ -193,7 +193,7 @@ for tweet in cursor:
     print(tweet['entities'])
     for item in tweet['entities']['urls']:
         all_urls.append(item['expanded_url'])
-    
+
     if len(all_urls) > 100:
         break
 
@@ -211,7 +211,7 @@ for tweet in cursor:
     if 'media' in tweet['entities']:
         for item in tweet['entities']['media']:
             all_media_url.append(item['media_url'])
-    
+
     if len(all_urls) > 1000:
         break
 
@@ -264,11 +264,11 @@ matrix = {}
 my_list = []
 for item in list_i:
     #print(item)
-    
+
     try:
         #print(item['name'], "-", item['location'],"-", item['time_zone'])
         matrix = {'name': item['name'], 'timezone':item['time_zone']}
-        
+
         my_list.append(matrix)
         #print(matrix)
         #print(my_list)
@@ -291,6 +291,3 @@ df.groupby('timezone').count().plot(kind='bar', label='DoSelect Twitter Follower
 
 
 # In[ ]:
-
-
-

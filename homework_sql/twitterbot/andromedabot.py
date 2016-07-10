@@ -3,8 +3,8 @@
 
 # In[5]:
 
-api_key = "POfOwij2GkfMu5xvHpDwIIAhy"
-api_secret = "JT1d2ILd4SnuSMvdI2A4yMeufMiEwFvwiPuTRLGfyHk8IH0uEh"
+api_key = "my key"
+api_secret = "my secret"
 
 
 # In[2]:

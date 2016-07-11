@@ -1,0 +1,4 @@
+Grade: 9 / 10
+
+The output of your functions are tuples but they should be one long string! What change can you make to your code to make sure that happens? 
+

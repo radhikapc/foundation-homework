@@ -12,8 +12,7 @@ The link to the bot is https://twitter.com/LedeGalaxy
 
 ### @ActOnMagicBot Twitter Bot ###
 
-This is a bot which I created for ActOnMagic Technologies, a startup owned by one of my ex-colleagues at Citrix. Here tweets are scraped from the status update of the ActonMagic Technologies facebook page. 
-- Work is in progress
+This is a bot which I created for ActOnMagic Technologies, a startup owned by one of my ex-colleagues at Citrix. Here, the status update of the ActonMagic Technologies facebook page has been scraped and pushed as tweets. 
 
 The link to the bot is https://twitter.com/actonmagicbot
 

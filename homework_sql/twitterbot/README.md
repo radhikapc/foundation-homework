@@ -8,12 +8,14 @@ This is my very first attempt to create a simple Twitter bot. This app pulls dat
 For the same purpose, I downloaded a CSV file from Github that contains the basic features of Solar System. The CSV file then has been imported into my database, labelled, andromedabot.
 The IPYNB file contains the complete code for this project.
 
+The link to the bot is https://twitter.com/LedeGalaxy
+
 ### @ActOnMagicBot Twitter Bot ###
 
 This is a bot which I created for ActOnMagic Technologies, a startup owned by one of my ex-colleagues at Citrix. Here tweets are scraped from the status update of the ActonMagic Technologies facebook page. 
 - Work is in progress
 
-The link to the bot is https://twitter.com/LedeGalaxy
+The link to the bot is https://twitter.com/actonmagicbot
 
 ### Twitter Timeline Analysis ###
 

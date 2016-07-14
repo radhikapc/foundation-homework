@@ -1,0 +1,7 @@
+Grade: 9 / 10
+
+Next time, be sure to run all the cells in your notebook! Right now, I can't tell if your output had matched Allison's because there is no output for several cells. If there were differences between how our computers handled the code or database, I might run into errors that you did not. 
+
+Some of the queries returned a different number of results than what Allison expected (Problem 4). 
+
+Let me know if you have any questions. 

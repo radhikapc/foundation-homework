@@ -1,0 +1,5 @@
+Grade: 10 / 10
+
+It may be a good idea to test your code over bigger subsections of data and to check how your function runs (you might run into errors using more data that you may not have encountered). 
+
+Code looks great otherwise! 

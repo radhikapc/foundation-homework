@@ -1,0 +1,4 @@
+Grade: 9 / 10 
+
+There is an error with your tokenizer for the Harry Potter fanfiction. You can see that when you cluster, the top terms are not really words (or are words that should've been ignored when you set the stop words). Take a look at the tokenizers we used in class! 
+

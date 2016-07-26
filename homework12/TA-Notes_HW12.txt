@@ -1,0 +1,6 @@
+Grade: 10 / 10 
+
+A note about your date_parser function -- it actually just runs dateuteil's parser.parse function -- the reason we made our custom data parsing function is to deal with dirty data (rather than passing the parser.parse function to our dataframe -- it would use that function by default). It seems like you didn't run into a lot of the dirty data because you were looking at a smaller selection of the data, so the parser.parse function worked just fine. Just something to consider for the future though! 
+
+Don't forget to run all the cells when you submit! The last few cells were not run in the version of the notebook that you submitted. 
+
